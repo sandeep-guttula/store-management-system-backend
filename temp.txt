@@ -1,0 +1,49 @@
+store-rating-platform/
+├── src/
+│   ├── config/                  # Configuration files
+│   │   ├── database.ts          # Database configuration ✅✅✅✅✅✅✅
+│   │   ├── jwt.ts               # JWT configuration ✅✅✅✅✅✅✅
+│   │   └── constants.ts         # Application constants ✅✅✅✅✅✅✅
+│   ├── controllers/             # Request handlers
+│   │   ├── auth.controller.ts   # Authentication controller✅✅✅✅✅✅✅
+│   │   ├── user.controller.ts   # User management controller✅✅✅✅✅✅✅
+│   │   ├── store.controller.ts  # Store management controller
+│   │   └── rating.controller.ts # Rating management controller
+│   ├── middlewares/             # Middleware functions
+│   │   ├── auth.middleware.ts   # Authentication middleware✅✅✅✅✅✅✅
+│   │   ├── role.middleware.ts   # Role-based access control✅✅✅✅✅✅✅
+│   │   ├── error.middleware.ts  # Error handling middleware
+│   │   └── validation.middleware.ts # Request validation middleware
+│   ├── models/                  # Prisma schema and model definitions
+│   │   └── schema.prisma        # Prisma schema definition
+│   ├── routes/                  # API routes
+│   │   ├── auth.routes.ts       # Authentication routes✅✅✅✅✅✅✅
+│   │   ├── user.routes.ts       # User management routes✅✅✅✅✅✅✅
+│   │   ├── store.routes.ts      # Store management routes
+│   │   └── rating.routes.ts     # Rating management routes
+│   ├── services/                # Business logic
+│   │   ├── auth.service.ts      # Authentication service✅✅✅✅✅✅✅
+│   │   ├── user.service.ts      # User management service✅✅✅✅✅✅✅
+│   │   ├── store.service.ts     # Store management service
+│   │   └── rating.service.ts    # Rating management service
+│   ├── types/                   # Type definitions
+│   │   ├── user.types.ts        # User-related types✅✅✅✅✅✅✅
+│   │   ├── store.types.ts       # Store-related types
+│   │   ├── rating.types.ts      # Rating-related types
+│   │   └── common.types.ts      # Shared types
+│   ├── utils/                   # Utility functions
+│   │   ├── logger.ts            # Logging utility
+│   │   ├── password.ts          # Password hashing utility✅✅✅✅✅✅✅
+│   │   ├── jwt.ts               # JWT handling utility✅✅✅✅✅✅✅
+│   │   └── validators.ts        # Validation schemas✅✅✅✅✅✅✅
+│   ├── app.ts                   # Express app setup ✅✅✅✅✅✅✅
+│   └── server.ts                # Server entry point ✅✅✅✅✅✅✅
+├── prisma/                      # Prisma configuration
+│   ├── migrations/              # Database migrations ✅✅✅✅✅✅✅
+│   └── schema.prisma            # Prisma schema ✅✅✅✅✅✅✅
+├── .env                         # Environment variables✅✅✅✅✅✅✅
+├── .env.example                 # Example environment variables
+├── .gitignore                   # Git ignore file✅✅✅✅✅✅✅
+├── package.json                 # Project dependencies✅✅✅✅✅✅✅
+├── tsconfig.json                # TypeScript configuration✅✅✅✅✅✅✅
+└── README.md                    # Project documentation✅✅✅✅✅✅✅
