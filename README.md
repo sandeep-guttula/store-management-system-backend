@@ -64,12 +64,15 @@ Dev dependencies:
 
 ### 👤 Users (`/api/users`)
 | Method | Route           | Access       | Description                |
-|--------|------------------|--------------|----------------------------|
-| GET    | `/me`            | Authenticated | Get current user           |
-| GET    | `/`              | Admin         | List all users             |
-| GET    | `/:id`           | Admin         | Get user by ID             |
-| PUT    | `/:id`           | Admin/User    | Update user                |
-| DELETE | `/:id`           | Admin         | Delete user                |
+|--------|-------------------|--------------|----------------------------|
+| GET    | `/me`             | Authenticated | Get current user           |
+| GET    | `/`               | Admin         | List all users             |
+| GET    | `/:id`            | Admin         | Get user by ID             |
+| PUT    | `/:id`            | Admin/User    | Update user                |
+| DELETE | `/:id`            | Admin         | Delete user                |
+| POST   | `/change-password`| Authenticated | Change Password            |
+| POST   | `/`               | Admin         | Add User               |
+
 
 ---
 
